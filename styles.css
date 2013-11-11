@@ -1,8 +1,9 @@
 @charset "UTF-8";
 /* CSS Document */
 
-.SC_container 			{ font-family:"Helvetica Neue", Helvetica, Arial, sans-serif; background-color:#f4f4f4; margin:20px auto; }
-.SC_fields { }
+.SC_container 			{ font-family:"Helvetica Neue", Helvetica, Arial, sans-serif; background-color:#f4f4f4; margin:20px auto; width:620px; padding:10px 10px 0 10px; }
+.SC_fields { float:left; width:250px; }
+.SC_results { float:right; width:330px; margin:24px 0 0 0; }
 .SC_fields label 		{ display:block; font-weight:100; padding:0 0 5px 0; }
 .SC_fields input 		{ }
 .SC_fields .SC_input 	{ width:250px; padding:5px 0px; font-size:16px; font-weight:500; margin-bottom:20px; border:#ccc solid 1px; }
