@@ -23,7 +23,7 @@ jQuery(document).ready(function($){
 			
 			var profitValue = (finalValue - initialValue).toFixed(2);
 			var profitPercentage = (100 * finalValue / initialValue).toFixed(0) + "%";
-			if(profitValue > 0){
+			if(profitValue >= 0){
 				var profitOrLossColorClass = "SC_profit";
 			} else {
 				var profitOrLossColorClass = "SC_loss";
