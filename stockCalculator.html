@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Stock profit or loss calculator</title>
+<link href="styles.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="calculate.js"></script>
+</head>
+<body>
+<div class="SC_container">
+	<div class="SC_fields">
+    	<label for="NumberOfShares">Number of shares purchased</label>
+    	<input type="tel" class="SC_input NumberOfShares" name="NumberOfShares" value="">
+        
+       <label for="BuyPrice">Buy price per share</label>
+    	<input type="tel" class="SC_input BuyPrice" name="BuyPrice" value="">
+        
+       <label for="SellPrice">Sell price per share</label>
+    	<input type="tel" class="SC_input SellPrice" name="SellPrice" value=""> 
+    </div><!--SC_inside ends-->
+    <div class="SC_results" style="display:none;">
+    	<div class="SC_profitValue"><p class="">&nbsp;</p></div>
+       <div class="SC_profitPercentage"><p class="">&nbsp;</p></div> 
+       <div class="SC_clear"></div>
+       <div class="SC_message"><p></p></div>
+    </div><!--SC_results ends-->
+    <div class="SC_clear"></div>
+</div><!--stockCalculator ends-->
+</body>
+</html>
